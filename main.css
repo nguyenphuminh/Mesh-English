@@ -1,7 +1,8 @@
 @charset utf-8;
 
 body{
-	background-color: #87b8e7;
+	background-color: #ededed;
+	margin:0;
 }
 
 a{
@@ -44,6 +45,24 @@ a{
 	padding:20px 15px;
 }
 .nav21:hover{
+	color:white;
+	padding:18px 15px;
+}
+.nav22{
+	font-size:120%;
+	position: absolute;
+	right:17%;
+	top:5%;
+	cursor:pointer;
+	transition: 0.7s;
+	background-color:#3891e5;
+	border:#3891e5;
+}
+.nav221{
+	color:black;
+	padding:20px 15px;
+}
+.nav221:hover{
 	color:white;
 	padding:18px 15px;
 }
