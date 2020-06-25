@@ -1,5 +1,9 @@
 @charset utf-8;
 
+body{
+	background-color: #87b8e7;
+}
+
 a{
 	color:black;
 	font-family:calibri;
@@ -7,7 +11,7 @@ a{
 
 #content{
 	font-size: 170%;
-	margin-left: 35%;
+	margin-left: 30%;
 	margin-right: 30%;
 	margin-top: 15%;
 	width:40%;
@@ -21,19 +25,19 @@ a{
 	left:0%;
 	right:0%;
 	top:0%;
-	background-color:#46e9c8;
-	height:17%;
+	background-color:#3891e5;
+	height:15%;
 	font-family:calibri;
 }
 .nav2{
-	font-size:140%;
+	font-size:150%;
 	position: absolute;
-	left:5%;
+	right:5%;
 	top:0%;
 	cursor:pointer;
 	transition: 0.7s;
-	background-color: #46e9c8;
-	border:1px solid #46e9c8;
+	background-color: #3891e5;
+	border:1px solid #3891e5;
 }
 .nav21{
 	color:black;
@@ -43,15 +47,38 @@ a{
 	color:white;
 	padding:35px 30px;
 }
+.nav3{
+	position: absolute;
+	left:6%;
+	top:30%;
+	font-size:130%;
+}
 
 
 #header{
 	color:black;
 	font-family:calibri;
-	font-size:215%;
+	font-size:195%;
 }
 #innercontent{
 	color:black;
 	font-family: calibri;
-	font-size: 115%;
+	font-size: 95%;
+}
+
+.info{
+	background-color:#3891e5;
+	height:30%;
+	left:0%;
+	right:0%; 
+	position: absolute;
+	z-index: 50;
+	top:250%;
+}
+#copyrighted{
+	margin-top: 3%;
+	font-family: Calibri;
+	font-size: 185%;
+	font-weight: bold;
+	text-align: center;
 }
