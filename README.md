@@ -3,6 +3,8 @@
 [![CircleCI Status](https://circleci.com/gh/nguyenphuminh/Mesh-Source.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/nguyenphuminh/Mesh-Source)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg)](https://mesh-source.000webhostapp.com)
 
+<img src="https://github.com/nguyenphuminh/Mesh-Source/blob/master/logo.png">
+
 ## Lời nói đầu
 Đây là mã nguồn của website học Tiếng Anh online - Mesh English. Tôi mong muốn rằng dựa vào mã nguồn của trang web này mọi người có thể tự phát triển nên thương hiệu, nền tảng riêng của mình. Tôi xin chân thành cảm ơn !
 
