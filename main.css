@@ -21,8 +21,8 @@ a{
 
 
 #nav{
+	position:fixed;
 	z-index: 100;
-	position: fixed;
 	left:0%;
 	right:0%;
 	top:0%;
@@ -33,7 +33,7 @@ a{
 .nav2{
 	font-size:120%;
 	position: absolute;
-	right:5%;
+	right:17%;
 	top:5%;
 	cursor:pointer;
 	transition: 0.7s;
@@ -51,7 +51,7 @@ a{
 .nav22{
 	font-size:120%;
 	position: absolute;
-	right:17%;
+	right:5%;
 	top:5%;
 	cursor:pointer;
 	transition: 0.7s;
