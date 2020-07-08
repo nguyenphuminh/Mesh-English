@@ -32,4 +32,4 @@ Gmail: nguyenphuminh09876543@gmail.com
 ## Bản quyền
 Mã nguồn của website này được cấp phép bởi Giấy phép MIT
 
-Copyrighted (C) 2020 Nguyen Phu Minh
+Copyrighted © 2020 Nguyen Phu Minh
