@@ -7,66 +7,77 @@
 	<link rel="icon" href="logo.png">
 	<style type="text/css">
 		.info{
-			color:white;
-			border:1px solid white;
 			background:none;
-			height:20%;
-			margin-left:3%;
-			margin-right:3%; 
-			position: absolute;
-			z-index: 50;
-			top:250%;
+			color:darkgray;
+			height:0%;
+		}
+
+		#copyrighted{
+			margin-top: 3%;
+			font-family: consolas;
+			font-size: 100%;
+			text-align: center;
 		}
 		#nav{
+			position:fixed;
 			z-index: 100;
-			position: absolute;
 			left:0%;
 			right:0%;
 			top:0%;
-			background:none;
+			background-color:white;
 			height:10%;
 			font-family:calibri;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			background-color: white;
 		}
+		#nav{
+			position:fixed;
+			z-index: 100;
+			left:0%;
+			right:0%;
+			top:0%;
+			background-color:white;
+			height:10%;
+			font-family:calibri;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			background-color: white;
+		}
+
 		.nav2{
-			font-size:120%;
-			position: absolute;
-			right:5%;
-			top:5%;
-			cursor:pointer;
-			transition: 0.7s;
-			background:none;
-		}
-		.nav21{
-			color:white;
-			padding:20px 15px;
-		}
-		.nav21:hover{
-			color:white;
-			padding:18px 15px;
-		}
-		.nav22{
-			font-size:120%;
+			font-size:90%;
 			position: absolute;
 			right:17%;
 			top:5%;
 			cursor:pointer;
-			transition: 0.7s;
+			transition: 0.3s;
 			background:none;
+			border:#3891e5;
 		}
+		.nav21{
+			color:darkgray;
+			padding:20px 15px;
+		}
+		.nav21:hover{
+			color:black;
+			padding:18px 15px;
+		}
+		.nav22{
+			font-size:90%;
+			position: absolute;
+			right:5%;
+			top:5%;
+			cursor:pointer;
+			transition: 0.3s;
+			background:none;
+			border:#3891e5;
+			}
 		.nav221{
-			color:white;
+			color:darkgray;
 			padding:20px 15px;
 		}
 		.nav221:hover{
-			color:white;
+			color:black;
 			padding:18px 15px;
-		}
-		.nav3{
-			color:white;
-			position: absolute;
-			left:6%;
-			top:30%;
-			font-size:130%;
 		}
 
 		#content{
@@ -75,9 +86,10 @@
 			text-decoration: none;
 		}
 		#header{
-			color:white;
-			font-family:candara;
+			color:#007bff;
 			font-size:155%;
+			font-family: consolas;
+			font-weight:100;
 		}
 		#innercontent{
 			color:white;
@@ -86,166 +98,68 @@
 		}
 
 		.class6{
+			margin-top:5%;
+			padding: 3%;
 			text-decoration: none;
-    		color:black;
-    		position:absolute;
-		    left:40%;
-    		right:40%;
-		    top:69%;
-    		font-family:'calibri';
-    		font-size: 24px;
-    		border: none;
+    		font-family:candara;
+    		font-size: 60%;
+    		border:3px solid #007bff;
     		border-radius: 5px;
-    		z-index:6;
-    		padding: 2%;
-    		transition:0.8s;
+    		transition:0.3s;
     		cursor:pointer;
+    		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		}
 
 		.class61{
     		background-color:white;
-    		color:black;
+    		color:#007bff;
 		}
 
 		.class61:hover{
-			border-radius: 20px;
-			background-color:black;
-   		    padding-top:3%;
-    		padding-bottom:3%;
+    		background-color:#007bff;
     		color:white;
+			
 		}
-
-		.class62{
-			text-decoration: none;
-    		color:black;
-    		position:absolute;
-    		left:40%;
-    		right:40%;
-    		top:95%;
-    		font-family:'calibri';
-    		font-size: 24px;
-    		border: none;
-    		border-radius: 5px;
-    		z-index:6;
-    		padding: 2%;
-    		transition:0.8s;
-    		cursor:pointer;
-		}
-
-		.class621{
-   			border:3px solid white;
-    		background:none;
-    		color:white;
-		}
-
-		.class621:hover{
-			border-radius: 20px;
-			background-color:white;
-   		    padding-top:3%;
-    		padding-bottom:3%;
-    		border:none;
-    		color:black;
-		}
-
-		.class9{
-			text-decoration: none;
-    		color:black;
-    		position:absolute;
-    		left:40%;
-    		right:40%;
-    		top:117%;
-    		font-family:'calibri';
-    		font-size: 24px;
-    		border: none;
-    		border-radius: 5px;
-    		z-index:6;
-    		padding: 2%;
-    		transition:0.8s;
-    		cursor:pointer;
-		}
-
-		.class91{
-   			background-color:white;
-    		color:black;
-		}
-
-		.class91:hover{
-    		border-radius: 20px;
-    		background-color:black;
-   		    padding-top:3%;
-    		padding-bottom:3%;
-    		color:white;
-		}
-		.class92{
-			text-decoration: none;
-    		color:black;
-    		position:absolute;
-    		left:40%;
-    		right:40%;
-    		top:139%;
-    		font-family:'calibri';
-    		font-size: 24px;
-    		border: none;
-    		border-radius: 5px;
-    		z-index:6;
-    		padding: 2%;
-    		transition:0.8s;
-    		cursor:pointer;
-		}
-
-		.class921{
-   			border:3px solid white;
-    		background:none;
-    		color:white;
-		}
-
-		.class921:hover{
-    		border-radius: 20px;
-			background-color:white;
-   		    padding-top:3%;
-    		padding-bottom:3%;
-    		border:none;
-    		color:black;
-		}
-		section{
+		button{
 			text-align: center;
+		}
+		a{
+			text-decoration: none;
 		}
 	</style>
 </head>
-<body style='
-			background-attachment:fixed;
-			background-image:url("background.png");
-			background-repeat:no-repeat;
-			background-size:cover;
-			height:90vh;'>
-	<video autoplay loop class="video-background" muted plays-inline>
-		<source src="night.mp4" type="video/mp4">
-	</video>
+<body>
 	<div id="nav">
 		<div class="nav3">Mesh - Học Tiếng Anh Online</div>
-		<a href="index.html"><button class="nav22 nav221">Trang chủ</button></a>
-		<a href="index.html"><button class="nav2 nav21">Quay lại</button></a>
+		<a href="index.html"><button class="nav2 nav21">Trang chủ</button></a>
+		<a href="index.html"><button class="nav22 nav221">Quay lại</button></a>
 	</div>
 
 	<div id="content" align="center">
-		<div id="header">Góc chương trình học tập Online </div>
+		<div id="header">Góc học tập</div>
 		<div id="innercontent"></div>
+		<br/>
+		<br/>
+		<a href="dethi.pdf" target='_blank'>
+		<button class="class6 class61" >
+			Đề thi vào 10 - Lương Hoằng Trí
+		</button>
+		</a>	
+		<a href="grammar.html">
+		<button class="class6 class61" >
+			Ngữ Pháp
+		</button>
+		</a>
+		<a href="test.html">
+		<button class="class6 class61" >
+			Làm đề ôn luyện
+		</button>
+		</a>
 	</div>
 
-	<section>
-		<a href="dethi.pdf" class="class6 class61" target='_blank'>Bộ đề thi vào 10 - Lương Hoằng Trí</a>
-	</section>
-	<section>
-		<a href="grammar.html" class="class62 class621">Ngữ Pháp</a>
-	</section>
-	<section>
-		<a href="test.html" class="class9 class91">Làm đề ôn luyện</a>
-	</section>
-	<section>
-		<a href="todo.html" class="class92 class921">Quản lý kế hoạch</a>
-	</section>
+	
 
-	<div style="top:200%" class="info">
+	<div style="top:110%" class="info">
 		<div id="copyrighted">Copyrighted (C) 2020 Nguyen Phu Minh</div>
 	</div>
 	<script type="text/javascript" src="metect.min.js"></script>

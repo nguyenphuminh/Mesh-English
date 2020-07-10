@@ -1,8 +1,8 @@
 @charset utf-8;
 
 body{
-	background-color: #ededed;
 	margin:0;
+	background-color:#f1f1f1;
 }
 
 a{
@@ -23,44 +23,46 @@ a{
 	left:0%;
 	right:0%;
 	top:0%;
-	background-color:#3891e5;
+	background-color:#007bff;
 	height:10%;
 	font-family:calibri;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .nav2{
-	font-size:120%;
+	font-size:90%;
 	position: absolute;
 	right:17%;
 	top:5%;
 	cursor:pointer;
-	transition: 0.7s;
-	background-color:#3891e5;
+	transition: 0.3s;
+	background:none;
 	border:#3891e5;
 }
 .nav21{
-	color:black;
+	color:white;
 	padding:20px 15px;
 }
 .nav21:hover{
-	color:white;
+	color:black;
 	padding:18px 15px;
 }
 .nav22{
-	font-size:120%;
+	font-size:90%;
 	position: absolute;
 	right:5%;
 	top:5%;
 	cursor:pointer;
-	transition: 0.7s;
-	background-color:#3891e5;
+	transition: 0.3s;
+	background:none;
 	border:#3891e5;
 }
 .nav221{
-	color:black;
+	color:white;
 	padding:20px 15px;
 }
 .nav221:hover{
-	color:white;
+	color:black;
 	padding:18px 15px;
 }
 .nav3{
@@ -68,7 +70,8 @@ a{
 	position: absolute;
 	left:6%;
 	top:30%;
-	font-size:130%;
+	font-size:90%;
+	color:white;
 }
 
 
@@ -101,15 +104,4 @@ a{
 .innersubmit{
 	border:5px solid gray ;
 	font-size:220%;
-}
-
-.video-background{
-	position: fixed;
-	right:0;
-	top:0;
-	min-height:100%;
-	min-width:100%;
-	width:auto;
-	height: auto;
-	z-index:-1;
 }

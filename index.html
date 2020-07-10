@@ -8,208 +8,180 @@
 	<link rel="icon" href="logo.png">
 	<style type="text/css">
 		.info{
-			color:white;
-			border:1px solid white;
 			background:none;
-			height:20%;
-			margin-left:3%;
-			margin-right:3%; 
-			position: absolute;
-			z-index: 50;
-			top:250%;
+			color:darkgray;
+			height:0%;
 		}
+
+		#copyrighted{
+			margin-top: 3%;
+			font-family: consolas;
+			font-size: 100%;
+			text-align: center;
+		}
+
 		#nav{
+			position:fixed;
 			z-index: 100;
-			position: absolute;
 			left:0%;
 			right:0%;
 			top:0%;
-			background:none;
+			background-color:white;
 			height:10%;
-			font-family:Calibri;
-		}
-		.nav2{
-			font-size:120%;
-			position: absolute;
-			right:5%;
-			top:5%;
-			cursor:pointer;
-			transition: 0.7s;
-			background:none;
-			font-family:Calibri;
-		}
-		.nav21{
-			color:white;
-			padding:20px 15px;
-		}
-		.nav21:hover{
-			color:white;
-			padding:18px 15px;
-		}
-		.nav2{
-			font-size:120%;
-			position: absolute;
-			right:5%;
-			top:5%;
-			cursor:pointer;
-			transition: 0.7s;
-			background:none;
-		}
-		.nav21{
-			color:white;
-			padding:20px 15px;
-		}
-		.nav21:hover{
-			color:white;
-			padding:18px 15px;
+			font-family:calibri;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		}
 		.nav22{
-			font-size:120%;
+			font-size:90%;
 			position: absolute;
-			right:17%;
+			right:5%;
 			top:5%;
 			cursor:pointer;
-			transition: 0.7s;
+			transition: 0.3s;
 			background:none;
-		}
+			border:none;
+			}
 		.nav221{
-			color:white;
+			color:darkgray;
 			padding:20px 15px;
 		}
 		.nav221:hover{
-			color:white;
+			color:black;
 			padding:18px 15px;
-		}
-		.nav3{
-			font-family: segoe script;
-			color:white;
-			position: absolute;
-			left:6%;
-			top:30%;
-			font-size:130%;
-		}
-
-		#content{
-			font-size: 170%;
-			margin-top: 20%;
-			margin-bottom:20%;
-			text-decoration: none;
-		}
-		#header{
-			color:white;
-			font-family: candara;
-			font-size:155%;
-		}
-		#innercontent{
-			color:white;
-			font-family: calibri;
-			font-size: 95%;
 		}
 
 		.class6{
+			margin-top:5%;
 			text-decoration: none;
-    		color:black;
-    		position:absolute;
-		    left:40%;
-    		right:40%;
-		    top:69%;
-    		font-family:'calibri';
-    		font-size: 24px;
-    		border: none;
+    		font-family:candara;
+    		font-size: 60%;
+    		border:3px solid #007bff;
     		border-radius: 5px;
-    		z-index:6;
-    		padding: 2%;
-    		transition:0.8s;
+    		padding: 1%;
+    		transition:0.3s;
     		cursor:pointer;
+    		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		}
 
 		.class61{
-			border:3px solid white;
-    		background:none;
+    		background-color:#007bff;
     		color:white;
 		}
 
 		.class61:hover{
-			border-radius: 20px;
-			background-color:white;
-   		    padding-top:3%;
-    		padding-bottom:3%;
-    		border:none;
-    		color:black;
+    		background-color:white;
+    		color:#007bff;
+			
 		}
 
-		.class62{
-			text-decoration: none;
-    		color:black;
-    		position:absolute;
-    		left:40%;
-    		right:40%;
-    		top:95%;
-    		font-family:'calibri';
-    		font-size: 24px;
-    		border: none;
-    		border-radius: 5px;
-    		z-index:6;
-    		padding: 2%;
-    		transition:0.8s;
-    		cursor:pointer;
+		#header{
+			color:#007bff;
+			font-size:155%;
+			font-weight:100;
 		}
-
-		.class621{
-   			background-color:white;
-    		color:black;
+		#contentheader{
+			color:#007bff;
+			font-family: candara;
+			font-size:155%;
+			font-weight:100;
 		}
-
-		.class621:hover{
-			border-radius: 20px;
-    		background-color:black;
-   		    padding-top:3%;
-    		padding-bottom:3%;
-    		color:white;
+		#quote{
+			color:darkgray;
+			font-family:consolas;
+			font-size:145%;
+			font-weight:100;
 		}
-		section{
-			text-align: center;
+		#innercontent2{
+			color:darkgray;
+			font-family: consolas;
+			font-size: 75%;
+			width:25%;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		}
-		.video-background{
-			position: fixed;
-			right:0;
-			bottom:0;
-			min-height:100%;
-			min-width:100%;
-			width:auto;
-			height: auto;
-			z-index:-1;
+		#innercontent3{
+			color:darkgray;
+			font-family: consolas;
+			font-size: 75%;
+			width:35%;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+		.nav3{
+			font-family: segoe script;
+			position: absolute;
+			left:6%;
+			top:30%;
+			font-size:90%;
+			color:black;
 		}
 	</style>
 </head>
-<body style='
-			background-attachment:fixed;
-			background-image:url("background.png");
-			background-repeat:no-repeat;
-			background-size:cover;
-			height:90vh;'>
-	<video autoplay loop class="video-background" muted plays-inline>
-		<source src="night.mp4" type="video/mp4">
-	</video>
+<body>
 	<div id="nav">
 		<div class="nav3">Mesh - Học Tiếng Anh Online</div>
 		<a href="index.html"><button class="nav22 nav221">Trang chủ</button></a>
-		<a href="about.html"><button class="nav2 nav21">Về chúng tôi</button></a>
 	</div>
 
 	<div id="content" align="center">
-		<div id="header">Mesh - Khởi nguồn của Tiếng Anh </div>
+		<div id="header">Mesh English</div>
+		<br/>
+		<div id="quote">Cùng Học Tiếng Anh Online</div>
 		<div id="innercontent"></div>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<section>
+			<a href="learn.html" class="class6 class61" >Bắt đầu học!</a>
+		</section>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<div id="contentheader">Tại sao bạn nên học tại Mesh English?</div>
+		<br/>
+		<div id="innercontent2">Mesh English là một nền tảng học Tiếng Anh trực tuyến và bạn có thể học tập mọi lúc mọi nơi. Chúng tôi đang cố gắng phát triển, nỗ lực hết mình để có thể phát triển và lớn mạnh hơn.</div>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<div id="contentheader">Bạn sẽ được cung cấp những gì?</div>
+		<br/>
+		<div id="innercontent3" align="left">
+			<li>1. Ngữ pháp quan trọng của Tiếng Anh</li>
+			<li>2. Hệ thống kiểm tra</li>
+			<li>3. Tải những đề thi quan trọng</li>
+		</div>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<div id="contentheader">Về chúng tôi:</div>
+		<br/>
+		<div id="innercontent3">
+			Mesh English được thành lập bởi Nguyễn Phú Minh. Chúng tôi nhắm tới sự đỉnh cao của nền giáo dục, đặc biệt là với bộ môn Tiếng Anh mà lại hoàn toàn miễn phí. Chúng tôi mong rằng, qua nền tảng của mình, nhiều con người có thể trở nên thích thú với Tiếng Anh cũng như có thể nâng cao được khả năng của chính mình. Chúng tôi xin chân thành cảm ơn vì có sự đồng hành của các bạn!
+		</div>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<div id="contentheader">Liên lạc với chủ sở hữu:</div>
+		<br/>
+		<div id="innercontent3" style="width:40%;">
+			<div>Số điện thoại: 0886891126</div>
+			<div>Discord: #npmdev6230</div>
+			<div>Gmail: nguyenphuminh09876543@gmail.com</div>
+		</div>
 	</div>
 
-	<section>
-		<a href="learn.html" class="class6 class61" >Bắt đầu học!</a>
-	</section>
-	<section>
-		<a href="contact.html" class="class62 class621">Liên Hệ</a>
-	</section>
-
-	<div style="top:150%" class="info">
+	<div style="top:350%" class="info">
 		<div id="copyrighted">Copyrighted (C) 2020 Nguyen Phu Minh</div>
 	</div>
 	<script type="text/javascript" src="metect.min.js"></script>
