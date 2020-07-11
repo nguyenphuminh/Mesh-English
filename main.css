@@ -30,7 +30,7 @@ a{
 }
 
 .nav2{
-	font-size:85%;
+	font-size:95%;
 	position: absolute;
 	right:17%;
 	top:5%;
@@ -48,7 +48,7 @@ a{
 	padding:18px 15px;
 }
 .nav22{
-	font-size:85%;
+	font-size:95%;
 	position: absolute;
 	right:5%;
 	cursor:pointer;
@@ -75,7 +75,7 @@ a{
 
 
 #header{
-	font-family:candara;
+	font-family:consolas;
 	color:#007bff;
 	font-size:155%;
 	font-weight:100;
