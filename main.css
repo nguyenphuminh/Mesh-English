@@ -23,24 +23,24 @@ a{
 	left:0%;
 	right:0%;
 	top:0%;
-	background-color:#007bff;
+	background-color:white;
 	height:10%;
 	font-family:calibri;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .nav2{
-	font-size:90%;
+	font-size:85%;
 	position: absolute;
 	right:17%;
 	top:5%;
 	cursor:pointer;
 	transition: 0.3s;
 	background:none;
-	border:#3891e5;
+	border:none;
 }
 .nav21{
-	color:white;
+	color:darkgray;
 	padding:20px 15px;
 }
 .nav21:hover{
@@ -48,17 +48,16 @@ a{
 	padding:18px 15px;
 }
 .nav22{
-	font-size:90%;
+	font-size:85%;
 	position: absolute;
 	right:5%;
-	top:5%;
 	cursor:pointer;
 	transition: 0.3s;
 	background:none;
-	border:#3891e5;
+	border:none;
 }
 .nav221{
-	color:white;
+	color:darkgray;
 	padding:20px 15px;
 }
 .nav221:hover{
@@ -71,14 +70,15 @@ a{
 	left:6%;
 	top:30%;
 	font-size:90%;
-	color:white;
+	color:black;
 }
 
 
 #header{
-	color:black;
 	font-family:candara;
-	font-size:195%;
+	color:#007bff;
+	font-size:155%;
+	font-weight:100;
 }
 #innercontent{
 	color:black;
@@ -87,18 +87,15 @@ a{
 }
 
 .info{
-	background-color:#3891e5;
-	height:20%;
-	left:0%;
-	right:0%; 
-	position: absolute;
-	z-index: 50;
-	top:250%;
+	background:none;
+	color:darkgray;
+	height:0%;
 }
+
 #copyrighted{
 	margin-top: 3%;
-	font-family: Calibri;
-	font-size: 150%;
+	font-family: consolas;
+	font-size: 50%;
 	text-align: center;
 }
 .innersubmit{
