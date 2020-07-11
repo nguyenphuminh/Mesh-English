@@ -102,3 +102,42 @@ a{
 	border:5px solid gray ;
 	font-size:220%;
 }
+.class6{
+	margin-top:5%;
+	text-decoration: none;
+   	font-family:candara;
+   	font-size: 60%;
+   	border:3px solid #007bff;
+   	border-radius: 5px;
+   	padding: 1%;
+   	transition:0.3s;
+   	cursor:pointer;
+   	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.class61{
+   	background-color:#007bff;
+   	color:white;
+}
+
+.class61:hover{
+   	background-color:white;
+   	color:#007bff;
+	
+}
+#innercontent2{
+	color:darkgray;
+	font-family: consolas;
+	font-size: 75%;
+	width:25%;
+}
+#innercontent3{
+	color:darkgray;
+	font-family: consolas;
+	font-size: 75%;
+	width:45%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.points{
+	font-family: helvetica;
+}
