@@ -9,24 +9,26 @@
 Đây là mã nguồn của website học Tiếng Anh online - Mesh English. Tôi mong muốn rằng dựa vào mã nguồn của trang web này mọi người có thể tự phát triển nên thương hiệu, nền tảng riêng của mình. Tôi xin chân thành cảm ơn !
 
 ## Đội ngũ phát triển
-Chief: Nguyễn Phú Minh
+<li>Chief: Nguyễn Phú Minh
 
-Lead Developer: Nguyễn Phú Minh
+<li>Lead Developer: Nguyễn Phú Minh</li>
 
-Lead Tester: Nguyễn Phú Minh
+<li>Lead Tester: Nguyễn Phú Minh</li>
 
-Lead Writer: Nguyễn Phú Minh
+<li>Lead Writer: Nguyễn Phú Minh</li>
 
-Lead Security: Nguyễn Phú Minh
+<li>Lead Security: Nguyễn Phú Minh</li>
 
-Có một vài content, bài viết trong website thuộc về https://tienganhtflat.com/ và https://vndoc.com/
+<b>Có một vài content, bài viết trong website thuộc về https://tienganhtflat.com/ và https://vndoc.com/ </b>
 
-## Thông tin liên lạc
-Số điện thoại: 0886891126
+## Liên hệ với chủ sở hữu
+<li>Số điện thoại: 0886891126</li>
 
-Discord: npmdev#6230
+<li>Discord: npmdev#6230</li>
 
-Gmail: nguyenphuminh09876543@gmail.com
+<li>Gmail: nguyenphuminh09876543@gmail.com</li>
+
+<li>Facebook: https://www.facebook.com/minh.nguyenphu.77715</li>
 
 
 ## Bản quyền
