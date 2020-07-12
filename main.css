@@ -30,27 +30,27 @@ a{
 }
 
 .nav2{
+	border:none;
 	font-size:95%;
 	position: absolute;
 	right:17%;
-	top:5%;
+	top:30%;
 	cursor:pointer;
 	transition: 0.3s;
 	background:none;
-	border:none;
 }
 .nav21{
 	color:darkgray;
-	padding:20px 15px;
 }
 .nav21:hover{
 	color:black;
-	padding:18px 15px;
+	top:26%;
 }
 .nav22{
 	font-size:95%;
 	position: absolute;
 	right:5%;
+	top:30%;
 	cursor:pointer;
 	transition: 0.3s;
 	background:none;
@@ -58,11 +58,10 @@ a{
 }
 .nav221{
 	color:darkgray;
-	padding:20px 15px;
 }
 .nav221:hover{
 	color:black;
-	padding:18px 15px;
+	top:26%;
 }
 .nav3{
 	font-family: segoe script;
