@@ -63,6 +63,23 @@ a{
 	color:black;
 	top:26%;
 }
+.nav4{
+	font-size:95%;
+	position: absolute;
+	right:29%;
+	top:30%;
+	cursor:pointer;
+	transition: 0.3s;
+	background:none;
+	border:none;
+}
+.nav41{
+	color:darkgray;
+}
+.nav41:hover{
+	color:black;
+	top:26%;
+}
 .nav3{
 	font-family: segoe script;
 	position: absolute;
