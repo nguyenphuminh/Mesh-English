@@ -18,7 +18,7 @@
 <li>Lead Writer: Nguyễn Phú Minh</li>
 
 <li>Lead Security: Nguyễn Phú Minh</li>
-
+<br/>
 <b>Có một vài content, bài viết trong website thuộc về https://tienganhtflat.com/ và https://vndoc.com/ </b>
 
 ## Liên hệ với chủ sở hữu
