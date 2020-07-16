@@ -1,5 +1,9 @@
 topbar.show();
 topbar.hide();
+
+var blockAd = document.querySelector("img");
+blockAd.outerHTML = "";
+
 var point=0;
 
 function correct1(){
