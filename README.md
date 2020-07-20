@@ -1,7 +1,7 @@
 
 <a href="http://mesh-english.000webhostapp.com" target="_blank"><img src="https://github.com/nguyenphuminh/Mesh-Source/blob/master/thumbnail.png"></a>
 
-[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/nguyenphuminh/Mesh-Source/blob/master/LICENSE)
+[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/nguyenphuminh/Mesh-Source/blob/master/LICENSE.md)
 [![CircleCI Status](https://circleci.com/gh/nguyenphuminh/Mesh-English.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/nguyenphuminh/Mesh-English)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg)](https://mesh-english.000webhostapp.com)
 
