@@ -109,7 +109,8 @@ a{
 .info{
 	background:none;
 	color:darkgray;
-	height:0%;
+	position:fixed;
+	bottom: 0%;
 }
 
 #copyrighted{
