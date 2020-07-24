@@ -4,11 +4,11 @@ var blockAd;
 
 
 delLogo = setInterval(function(){
-	blockAd = document.querySelector('[alt="www.000webhost.com"]');
-	blockAd.outerHTML = "";
 	if (blockAd == undefined || blockAd == null || blockAd == ""){
 		clearInterval(delLogo);
 	}
+	blockAd = document.querySelector('[alt="www.000webhost.com"]');
+	blockAd.outerHTML = "";
 }, 1 );
 
 
