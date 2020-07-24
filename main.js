@@ -1,17 +1,17 @@
 topbar.show();
 topbar.hide();
+
 var blockAd;
 
 
 delLogo = setInterval(function(){
+	blockAd = document.querySelector('[alt="www.000webhost.com"]');
 	if (blockAd == undefined || blockAd == null || blockAd == ""){
 		clearInterval(delLogo);
 	} else {
-		blockAd = document.querySelector('[alt="www.000webhost.com"]');
 		blockAd.outerHTML = "";
 	}
 }, 1 );
-
 
 
 var point=0;
