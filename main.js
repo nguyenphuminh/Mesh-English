@@ -6,9 +6,10 @@ var blockAd;
 delLogo = setInterval(function(){
 	if (blockAd == undefined || blockAd == null || blockAd == ""){
 		clearInterval(delLogo);
+	} else {
+		blockAd = document.querySelector('[alt="www.000webhost.com"]');
+		blockAd.outerHTML = "";
 	}
-	blockAd = document.querySelector('[alt="www.000webhost.com"]');
-	blockAd.outerHTML = "";
 }, 1 );
 
 
