@@ -9,15 +9,7 @@
 Đây là mã nguồn của website học Tiếng Anh online - Mesh English. Tôi mong muốn rằng dựa vào mã nguồn của trang web này mọi người có thể tự phát triển nên thương hiệu, nền tảng riêng của mình. Tôi xin chân thành cảm ơn !
 
 ## Đội ngũ phát triển
-<li>Chief: Nguyễn Phú Minh
-
-<li>Lead Developer: Nguyễn Phú Minh</li>
-
-<li>Lead Tester: Nguyễn Phú Minh</li>
-
-<li>Lead Writer: Nguyễn Phú Minh</li>
-
-<li>Lead Security: Nguyễn Phú Minh</li>
+<li>Developer: Nguyen Phu Minh</li>
 <br/>
 <b>Có một vài content, bài viết trong website thuộc về https://tienganhtflat.com/ và https://vndoc.com/ </b>
 
