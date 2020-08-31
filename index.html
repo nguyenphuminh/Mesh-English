@@ -71,7 +71,7 @@
 	<div id="content" align="center">
 		<div id="header">Mesh English</div>
 		<br/>
-		<div id="quote">Cùng Học Tiếng Anh Online</div>
+		<div id="quote">Cùng <span class="typed"></span>Tiếng Anh Online</div>
 		<div id="innercontent"></div>
 		<br/>
 		<br/>
@@ -135,5 +135,15 @@
 	</div>
 	<script type="text/javascript" src="topbar.min.js"></script>
 	<script type="text/javascript" src="main.js"></script>
+	<script type="text/javascript" src="typed.min.js"></script>
+	<script>
+  		var typed = new Typed('.typed', {
+			strings: ['học', 'ôn tập',],
+			typeSpeed: 45,
+			backSpeed: 45,
+			smartBackspace:false,
+			loop: true
+		});
+	</script>
 </body>
 </html>
