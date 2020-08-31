@@ -2,8 +2,6 @@ topbar.show();
 topbar.hide();
 
 var blockAd;
-
-
 delLogo = setInterval(function(){
 	blockAd = document.querySelector('[alt="www.000webhost.com"]');
 	if (blockAd == undefined || blockAd == null || blockAd == ""){
@@ -12,7 +10,6 @@ delLogo = setInterval(function(){
 		blockAd.outerHTML = "";
 	}
 }, 1 );
-
 
 var point=0;
 
@@ -300,4 +297,8 @@ function wrong20(){
 function submit(){
 	var b=document.querySelector(".points");
 	b.innerHTML = "Điểm:" + "  " + point;
+}
+
+function reset(){
+	window.location.replace("test.html");
 }
