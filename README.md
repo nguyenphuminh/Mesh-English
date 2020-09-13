@@ -23,7 +23,7 @@
 <li>Facebook: https://www.facebook.com/minh.nguyenphu.77715</li>
 
 
-## Bản quyền
+## Bản quyền & Giấy phép
 Mã nguồn của website này được cấp phép bởi Giấy phép MIT
 
 Copyrighted © 2020 Nguyen Phu Minh
